@@ -1,0 +1,6 @@
+{
+  "model_version": "6.0_optimized",
+  "purpose": "3-6 month multi-asset holding attractiveness and drawdown risk decision support",
+  "data_sources": ["yfinance", "FRED", "manual_inputs"],
+  "modules": ["asset_specific_signals", "manual_overlay", "3m_6m_holding_attractiveness", "drawdown_probability", "latent_fragility", "driver_attribution", "backtest_calibration"]
+}

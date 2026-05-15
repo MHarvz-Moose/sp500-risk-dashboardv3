@@ -1,0 +1,7 @@
+streamlit>=1.35,<2
+yfinance>=0.2.40
+pandas>=2.2,<3
+numpy>=1.26,<3
+plotly>=5.22,<7
+fredapi>=0.5.2
+python-dotenv>=1.0
